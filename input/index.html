@@ -1,0 +1,56 @@
+<html>
+  <head>
+    <title>input do html</title>
+  </head>
+  <body>
+    <h1>input do html</h1>
+
+    <form>
+      <!--campo de texto-->
+      <label for="nome">nome</label>
+      <input type="text" id="nome" name="nome" required />
+
+      <br /><br />
+      <!--campo de email-->
+      <label for="email--">email--</label>
+      <input type="ema"il id="email" name="email" required />
+      <br><br>
+
+      <!--campo de senha-->
+      <label for="senha">senha</label>
+      <input type="password" id="senha" name="senha" required>
+      <br><br>
+
+        <!--campo de selecão radio-->
+        <label>Gênero</label> <br>
+        <input type="radio" name="Gênero" id="masculino" value="m">
+        <label for="masculino">masculino</label>
+        <input type="radio" name="Gênero" id="feminino" value="f">
+        <label for="feminino">feminino</label>
+        <br><br>
+
+        <!--campo de selecao multipla-->
+        <label>interesses:</label> <br>
+        <input type="checkbox" id="bacend" value="bacend" name="interesses">
+        <label for="bacend">bacend</label>
+
+        <input type="checkbox" id="frontend" value="frontend" name="interesses">
+        <label for="frontend">frontend</label>
+
+        <input type="checkbox" id="mobile" value="mobile" name="interesses">
+        <label for="mobile">mobile</label>
+        <br><br>
+
+        <!--campo de data-->
+        <label for="data de nascimento">Data de nascimento</label>
+        <input type="date" id="data de nascimento" name="nascimento">
+        <br><br>
+
+        <!--campo de arquivo-->
+        <label for="foto de perfil">foto de perfil:</label>
+        <input type="file" name="avatar" id="foto de perfil">
+        <br><br>
+        <button type="submit">Enviar</button>
+    </form>
+  </body>
+</html>
